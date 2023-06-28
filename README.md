@@ -4,6 +4,15 @@
   - **HTML**
   - **CSS**
   - **React Js**
+
+### Features
+
+- **Real-Time Clock Display**
+- **Multiple Alarm Setting**
+- **Audio Playback During Alarm**
+- **Stop ans Delete Alarm Functionality**
+- **Alarms Reset Funtionality**
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
