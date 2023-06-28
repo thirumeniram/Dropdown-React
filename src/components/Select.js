@@ -4,14 +4,14 @@ const Select = (props) => {
   return (
     <div className="home">
       <h1>Should you use a dropdown?</h1>
-      <button onMouseEnter={props.handleMouseEnter}>
+      {/* Button with mouse enter event listener */}
+      <button onMouseEnter={props.handleMouse}>
         <div className="dropBox">
           <span>Select</span>
         </div>{" "}
+        {/* Conditional rendering of chevron icon based on Status prop */}
         <i
-          className={
-            props.isShow ? "fa-solid fa-angle-down" : "fa-solid fa-angle-up"
-          }
+          className={props.Status ? "fas fa-chevron-down" : "fas fa-chevron-up"}
         ></i>
       </button>
     </div>
