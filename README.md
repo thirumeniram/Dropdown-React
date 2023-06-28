@@ -1,9 +1,9 @@
 ![image](https://github.com/thirumeniram/Dropdown-react/assets/66516937/58d43a72-c51a-49da-821a-4cb4264c9f4d)
 
 # Tech Stack:
-  Css
-  React Js
-  Html
+  ## Css
+  ## React Js
+  ## Html
 
 # Getting Started with Create React App
 
