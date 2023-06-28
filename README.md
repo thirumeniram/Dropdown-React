@@ -5,13 +5,12 @@
   - **CSS**
   - **React Js**
 
-### Features
+# Features
 
-- **Real-Time Clock Display**
-- **Multiple Alarm Setting**
-- **Audio Playback During Alarm**
-- **Stop ans Delete Alarm Functionality**
-- **Alarms Reset Funtionality**
+- **Hovering the select button, shows the drop-down items.**
+- **On click of an option in the dropdown list, the Status gets updated.**
+- **If the cursor moves out of the root element, the dropdown list closes**
+
 
 # Getting Started with Create React App
 
