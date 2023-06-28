@@ -10,7 +10,7 @@ const Select = (props) => {
         </div>{" "}
         <i
           className={
-            props.isShow ? "fa-solid fa-angle-down" : "fa-solid fa-angle-right"
+            props.isShow ? "fa-solid fa-angle-down" : "fa-solid fa-angle-up"
           }
         ></i>
       </button>
