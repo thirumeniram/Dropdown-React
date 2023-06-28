@@ -16,10 +16,10 @@ const App = () => {
       setStatus(false);
     };
 
-    // Add event listener for mouse leave event on the root element
+    // Adding event listener for mouse leave event on the root element
     rootNode.addEventListener("mouseleave", handleMouseLeave);
 
-    // Cleanup the event listener on component unmount
+    // Cleaningup the event listener on component unmount
     return () => {
       // Use the copied variable in the cleanup function
       const cleanupNode = rootNode;
@@ -40,13 +40,13 @@ const App = () => {
 
   return (
     <div className="app" ref={rootRef}>
-      {/* Render the Select component */}
+      {/* Rendering the Select component */}
       <Select Status={Status} handleMouse={handleMouse} />
 
-      {/* Render the Dropdown component if Status is true */}
+      {/* Rendering the Dropdown component if Status is true */}
       {Status && <Dropdown options={options} handleOnClick={handleOnClick} />}
 
-      {/* Display the selected item */}
+      {/* Displaying the selected item */}
       <p className="ans-p">Status: {selected}</p>
     </div>
   );
