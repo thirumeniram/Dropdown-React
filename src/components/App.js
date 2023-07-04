@@ -11,7 +11,7 @@ const App = () => {
   useEffect(() => {
     const rootNode = rootRef.current;
 
-    // Function to handle mouse leave event from the root element
+    // Function for handling mouse leave event from the root element
     const handleMouseLeave = () => {
       setStatus(false);
     };
@@ -21,7 +21,7 @@ const App = () => {
 
     // Cleaningup the event listener on component unmount
     return () => {
-      // Use the copied variable in the cleanup function
+      // Using the copied variable in the cleanup function
       const cleanupNode = rootNode;
       cleanupNode.removeEventListener("mouseleave", handleMouseLeave);
     };
